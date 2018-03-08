@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="space">1dp</dimen>
+    <dimen name="space_horizontal">15dp</dimen>
+    <dimen name="height_size">120dp</dimen>
+    <dimen name="margin_layout">5dp</dimen>
+    <dimen name="buttom_size">10dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_Right">10dp</dimen>
+    <dimen name="padding_top">10dp</dimen>
+    <dimen name="Layout_width">147dp</dimen>
+    <dimen name="layout_height">54dp</dimen>
+    <dimen name="margin_end">12dp</dimen>
+    <dimen name="margin_right">11dp</dimen>
+    <dimen name="margin_left">18dp</dimen>
+    <dimen name="margin_start">18dp</dimen>
+    <dimen name="margin_t">67dp</dimen>
+    <dimen name="edit_width">357dp</dimen>
+    <dimen name="edit_height">49dp</dimen>
+    <dimen name="edit_top">20dp</dimen>
+    <dimen name="margin_top">66dp</dimen>
+</resources>

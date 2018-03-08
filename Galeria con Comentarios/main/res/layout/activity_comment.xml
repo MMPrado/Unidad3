@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/found15"
+    tools:context="mx.edu.utng.mmacias.gallerymayra.Comment">
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="@dimen/Layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_save"
+        android:background="@drawable/material_button"
+        android:text="@string/mostrar_comentarios"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="@dimen/Layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_alignLeft="@+id/edt_comments"
+        android:layout_alignStart="@+id/edt_comments"
+        android:layout_below="@+id/edt_comments"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/material_button"
+        android:text="@string/enviar_comentario"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_comments"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="@dimen/edit_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/edit_top"
+        android:hint="@string/escribe_un_comentario"
+        android:inputType="text|textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/md_grey_300"
+         />
+
+    <ListView
+        android:id="@+id/lsv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/btn_save"
+        android:layout_alignStart="@+id/btn_save"
+        android:layout_below="@+id/btn_show"
+        android:layout_marginTop="@dimen/edit_top"
+        android:background="@drawable/background_list"
+        ></ListView
+>
+
+</RelativeLayout>

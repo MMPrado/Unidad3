@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horzontal">16pt</dimen>
+    <dimen name="vertical">16pt</dimen>
+    <dimen name="width">300dp</dimen>
+    <dimen name="heigt">330dp</dimen>
+    <dimen name="size_text">20dp</dimen>
+    <dimen name="width_btn">255dp</dimen>
+    <dimen name="width_ivm">180dp</dimen>
+    <dimen name="width_btn1">228dp</dimen>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/horzontal"
+    android:paddingRight="@dimen/horzontal"
+    android:paddingTop="@dimen/vertical"
+    android:paddingBottom="@dimen/vertical"
+    android:background="@drawable/found15"
+    tools:context="mx.edu.utng.mmacias.shareimage.ShareActivity">
+
+    <TableRow >
+
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="@dimen/width_btn1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/material_button"
+            android:text="@string/seleccionar_foto"
+            android:textColor="@color/md_blue_A400"
+            android:textSize="@dimen/size_text"
+
+            />
+    </TableRow>
+
+    <TableRow >
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="@dimen/width_ivm"
+            android:layout_height="@dimen/heigt"
+            android:layout_above="@+id/buttonShare"
+            android:scaleType="centerCrop" />
+    </TableRow>
+    <TableRow >
+
+        <Button
+            android:id="@+id/buttonShare"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/material_button"
+            android:text="@string/compartir_imagen"
+            android:textColor="@color/md_blue_A400"
+            android:textSize="@dimen/size_text" />
+    </TableRow>
+
+</TableLayout>

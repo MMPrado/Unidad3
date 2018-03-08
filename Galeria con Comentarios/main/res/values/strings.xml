@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GalleryMayra</string>
+    <string name="mostrar_comentarios">mostrar Comentarios</string>
+    <string name="enviar_comentario">enviar Comentario</string>
+    <string name="escribe_un_comentario">Escribe un Comentario</string>
+</resources>
